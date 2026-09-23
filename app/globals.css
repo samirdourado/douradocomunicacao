@@ -6,7 +6,7 @@
   --color-secondary: #FFF2C2;  
   --grey0: #0A0A0B;
   --grey1: #2D2E32;
-  --grey2: #E7EEF6;
+  --grey2: #ededee;
   --grey3: #FFFFFF;
 
   /* Light mode */
@@ -40,14 +40,6 @@
     --code-bg: var(--grey1);
     --accent: var(--color-primary);
   }
-}
-
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
 }
 
 body {
