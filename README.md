@@ -21,7 +21,8 @@ Plataforma web de alta performance desenvolvida para a apresentação e venda de
 Certifique-se de ter o **Node.js** (versão 18.17 ou superior) e um gerenciador de pacotes (`npm`, `pnpm` ou `yarn`) instalados em sua máquina.
 
 ### Passo a Passo
- **Clonar o repositório:**
+
+**Clonar o repositório:**
 
 ```bash
 git clone git@github.com:samirdourado//douradocomunicacao.git
