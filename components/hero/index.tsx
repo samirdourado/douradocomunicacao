@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <section className='w-full flex flex-col md:flex-row items-center justify-between gap-8 mt-30 px-4 md:px-0'>
+    <section className='w-full max-w-7xl flex flex-col md:flex-row items-center justify-between gap-8 mt-30 px-4 xl:px-0'>
       <div className='w-full md:w-1/2 text-center md:text-left'>
         <h1 className='text-4xl font-bold text-(--text-h)'>
           Bem-vindo à Dourado Comunicação
