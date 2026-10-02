@@ -11,6 +11,7 @@ Plataforma web de alta performance desenvolvida para a apresentação e venda de
 - **Estilização:** [Tailwind CSS](https://tailwindcss.com/) + CSS Variables
 - **Otimização de Fontes:** `next/font` (Inter Font)
 - **Ícones:** [Lucide React](https://lucide.dev/)
+- **Ícones:** [Icônes JS](https://icones.js.org/)
 
 ---
 
