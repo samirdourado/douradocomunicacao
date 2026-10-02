@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Header = () => {
   return (
     <div className='flex flex-col items-center bg-(--bg) w-full h-25 fixed top-0 left-0 right-0 mx-auto z-50 shadow-sm'>
-      <header className='flex items-center justify-between bg-(--bg) w-full h-25 max-w-7xl px-3.75 md:px-12.5 xl:px-0'>
+      <header className='flex items-center justify-between bg-(--bg) w-full h-25 max-w-7xl px-3.75 xl:px-0'>
         <figure className='flex items-center'>
           <Image
             src={'/logo-light.webp'}
