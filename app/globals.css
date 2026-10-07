@@ -10,8 +10,9 @@
   --grey3: #FFFFFF;
 
   /* Light mode */
-  --bg: var(--grey2);
+  --bg: var(--grey3);
   --bg-secondary: var(--color-secondary);
+  --bg-third: var(--grey2);
   --text: var(--grey1);
   --text-h: var(--grey0);
   --border: rgba(45, 46, 50, 0.15);
@@ -34,6 +35,7 @@
   :root {
     --bg: var(--grey0);
     --bg-secondary: var(--grey1);
+    --bg-third: var(--grey1);
     --text: var(--grey2);
     --text-h: var(--grey3);
     --border: rgba(231, 238, 246, 0.12);

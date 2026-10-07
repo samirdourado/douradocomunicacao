@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import 'react-toastify/dist/ReactToastify.css';
+import ToastProvider from '@/components/toastcontainer';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -16,7 +18,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
     <html lang='pt-BR' className={`${inter.variable} h-full antialiased`}>
-      <body className='min-h-full flex flex-col'>{children}</body>
+      <body className='min-h-full flex flex-col'>
+        {children}
+        <ToastProvider />
+      </body>
     </html>
   );
 }
