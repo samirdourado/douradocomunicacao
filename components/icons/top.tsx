@@ -1,0 +1,21 @@
+import React, { SVGProps } from 'react';
+
+const TypcnArrowUpThick = (props: SVGProps<SVGSVGElement>) => {
+  return (
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width='1.5em'
+      height='1.5em'
+      viewBox='0 0 24 24'
+      {...props}
+    >
+      {/* Icon from Typicons by Stephen Hutchings - https://creativecommons.org/licenses/by-sa/4.0/ */}
+      <path
+        fill='currentColor'
+        d='M12 3.172L5.586 9.586a2 2 0 1 0 2.828 2.828L10 10.828v7.242a2 2 0 0 0 4 0v-7.242l1.586 1.586c.391.391.902.586 1.414.586s1.023-.195 1.414-.586a2 2 0 0 0 0-2.828z'
+      />
+    </svg>
+  );
+};
+
+export default TypcnArrowUpThick;
