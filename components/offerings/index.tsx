@@ -3,8 +3,8 @@ import OfferingCard from '../offering-card';
 
 const Offerings = () => {
   return (
-    <div id='servicos' className='pb-12 mt-30 px-4'>
-      <section className='w-full max-w-7xl flex flex-col items-center gap-12'>
+    <div id='servicos' className='mt-30 px-4'>
+      <section className='w-full max-w-7xl flex flex-col items-center gap-12 mt-32 mb-32'>
         <h2 className='text-3xl md:text-4xl font-bold text-(--text-h)'>
           Entre os nossos serviços
         </h2>
