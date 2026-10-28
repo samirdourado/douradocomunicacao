@@ -6,7 +6,7 @@ const Customers = () => {
   return (
     <section
       id='clientes'
-      className='flex flex-col items-center bg-(--bg) w-full px-4 pt-20 pb-20'
+      className='flex flex-col items-center bg-(--bg) w-full px-4 pt-32 pb-20'
     >
       <div className='w-full max-w-7xl flex flex-col items-center gap-8'>
         <h3 className='text-3xl md:text-4xl font-bold text-(--text)'>
