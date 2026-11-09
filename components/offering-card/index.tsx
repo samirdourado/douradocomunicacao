@@ -12,13 +12,13 @@ const OfferingCard = (offering: iOfferings) => {
        opacity-80 group-hover:opacity-100'
       />
       <div className='relative h-full w-full rounded-[14px] bg-(--bg) p-4'>
-        <span className='text-xs font-bold text-(--accent) uppercase tracking-wider'>
+        <span className='text-xs font-bold text-amber-700 dark:text-(--accent) uppercase tracking-wider'>
           {offering.title}
         </span>
         <h3 className='mt-2 text-xl font-bold text-(--text-h)'>
           {offering.subtitle}
         </h3>
-        <p className='mt-2 text-sm text-zinc-400'>{offering.description}</p>
+        <p className='mt-2 text-sm text-zinc-600 dark:text-zinc-400'>{offering.description}</p>
       </div>
     </div>
   );

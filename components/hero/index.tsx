@@ -82,6 +82,7 @@ const Hero = () => {
           alt='Notebook e celular exibindo um site criado pela Dourado Comunicação'
           className='relative w-full h-auto max-w-(--breakpoint-md)'
           preload
+          sizes='(min-width: 1280px) 616px, 100vw'
         />
       </div>
     </section>

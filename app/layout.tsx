@@ -27,6 +27,14 @@ export const metadata: Metadata = {
     title: 'Dourado Comunicação | Criação de sites e presença digital',
     description:
       'Desenvolvimento de Landing Pages de alta conversão, sites institucionais e otimização do Google Meu Negócio.',
+    images: [
+      {
+        url: '/dourado_comunicacao_1_1.jpg',
+        width: 1080,
+        height: 1080,
+        alt: 'Área de trabalho Dourado Comunicação',
+      },
+    ],
   },
   robots:
     process.env.VERCEL_ENV === 'production'
@@ -48,12 +56,16 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
               '@type': 'ProfessionalService',
               name: 'Dourado Comunicação',
               url: 'https://www.douradocomunicacao.com.br',
+              image:
+                'https://www.douradocomunicacao.com.br/dourado_comunicacao_1_1.jpg',
               telephone: '+55 11 96827-6100',
               email: 'contato@douradocomunicacao.com.br',
               address: {
                 '@type': 'PostalAddress',
+                streetAddress: 'Rua Antônio Foster, 563',
                 addressLocality: 'São Paulo',
                 addressRegion: 'SP',
+                postalCode: '04760-040',
                 addressCountry: 'BR',
               },
               sameAs: [

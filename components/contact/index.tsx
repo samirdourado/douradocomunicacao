@@ -135,6 +135,7 @@ const Contact = () => {
             <div className='flex gap-2'>
               <Link
                 href={'https://www.instagram.com/_douradocomunicacao/'}
+                aria-label='Instagram da Dourado Comunicação'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -142,6 +143,7 @@ const Contact = () => {
               </Link>
               <Link
                 href={'https://www.facebook.com/douradocomunicacao'}
+                aria-label='Facebook da Dourado Comunicação'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -149,6 +151,7 @@ const Contact = () => {
               </Link>
               <Link
                 href={'https://share.google/NLgY0oebGvhNo5cDf'}
+                aria-label='Perfil da Dourado Comunicação no Google'
                 target='_blank'
                 rel='noopener noreferrer'
               >
