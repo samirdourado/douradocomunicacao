@@ -137,7 +137,7 @@ const Footer = () => {
             href='mailto:contato@douradocomunicacao.com.br'
             className='text-(--grey0) hover:underline hover:opacity-80 transition-all text-sm sm:text-base'
           >
-            contato@dourado.com.br
+            contato@douradocomunicacao.com.br
           </Link>
           <Link
             href='https://wa.me/5511968276100'
