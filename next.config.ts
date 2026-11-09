@@ -6,17 +6,17 @@ const nextConfig: NextConfig = {
             {
                 protocol: 'https',
                 hostname: 'instagram.fcgh13-1.fna.fbcdn.net',
-                pathname: '**',
+                pathname: '/**',
             },
             {
                 protocol: 'https',
                 hostname: 'scontent.fcgh13-1.fna.fbcdn.net',
-                pathname: '**',
+                pathname: '/**',
             },
             {
                 protocol: 'https',
                 hostname: 'makelab.ind.br',
-                pathname: '**',
+                pathname: '/**',
             },
         ],
     },
