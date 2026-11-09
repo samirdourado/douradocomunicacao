@@ -9,9 +9,9 @@ const Customers = () => {
       className='flex flex-col items-center bg-(--bg) w-full px-4 pt-32 pb-20'
     >
       <div className='w-full max-w-7xl flex flex-col items-center gap-8'>
-        <h3 className='text-3xl md:text-4xl font-bold text-(--text)'>
+        <h2 className='text-3xl md:text-4xl font-bold text-(--text)'>
           Clientes e Parceiros
-        </h3>
+        </h2>
         <section className='flex gap-8 lg:flex-row justify-between'>
           {costumersData.map((costumer) => (
             <Link

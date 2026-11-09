@@ -1,4 +1,4 @@
-import { FieldError, UseFormRegisterReturn } from "react-hook-form";
+import { FieldError, UseFormRegisterReturn } from 'react-hook-form';
 
 interface iFieldset {
   id: string;
@@ -9,4 +9,4 @@ interface iFieldset {
   register: UseFormRegisterReturn;
 }
 
-export default iFieldset
+export default iFieldset;
