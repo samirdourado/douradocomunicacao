@@ -8,9 +8,9 @@ const Footer = () => {
     <footer className='flex flex-col items-center bg-(--color-secondary) w-full px-4 pt-18 pb-18 md:pt-30 md:pb-30 lg:pb-8 text-(--grey0)'>
       <div className='w-full max-w-7xl flex flex-wrap justify-between gap-y-8 mb-12'>
         <div className='w-[calc(50%-1rem)] md:w-auto flex flex-col gap-4 text-left'>
-          <h6 className='font-bold text-base sm:text-lg uppercase tracking-wider mb-2 text-(--grey0)'>
+          <h3 className='font-bold text-base sm:text-lg uppercase tracking-wider mb-2 text-(--grey0)'>
             LINKS IMPORTANTES
-          </h6>
+          </h3>
           <Link
             href='https://app.turbocloud.com.br/aff.php?aff=1568'
             target='_blank'
@@ -53,9 +53,9 @@ const Footer = () => {
           </Link>
         </div>
         <div className='w-[calc(50%-1rem)] md:w-auto flex flex-col gap-4 text-left'>
-          <h6 className='font-bold text-base sm:text-lg uppercase tracking-wider mb-2 text-(--grey0)'>
+          <h3 className='font-bold text-base sm:text-lg uppercase tracking-wider mb-2 text-(--grey0)'>
             NAVEGAÇÃO
-          </h6>
+          </h3>
           <Link
             href='#home'
             rel='noopener noreferrer'
@@ -93,9 +93,9 @@ const Footer = () => {
           </Link>
         </div>
         <div className='w-[calc(50%-1rem)] md:w-auto flex flex-col gap-4 text-left'>
-          <h6 className='font-bold text-base sm:text-lg uppercase tracking-wider mb-2 text-(--grey0)'>
+          <h3 className='font-bold text-base sm:text-lg uppercase tracking-wider mb-2 text-(--grey0)'>
             REDES SOCIAIS
-          </h6>
+          </h3>
           <Link
             href={'https://www.instagram.com/_douradocomunicacao/'}
             target='_blank'
@@ -130,9 +130,9 @@ const Footer = () => {
           </Link>
         </div>
         <div className='w-[calc(50%-1rem)] md:w-auto flex flex-col gap-4 text-left'>
-          <h6 className='font-bold text-base sm:text-lg uppercase tracking-wider mb-2 text-(--grey0)'>
+          <h3 className='font-bold text-base sm:text-lg uppercase tracking-wider mb-2 text-(--grey0)'>
             CONTATO
-          </h6>
+          </h3>
           <Link
             href='mailto:contato@douradocomunicacao.com.br'
             className='text-(--grey0) hover:underline hover:opacity-80 transition-all text-sm sm:text-base'

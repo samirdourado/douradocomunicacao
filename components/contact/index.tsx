@@ -42,14 +42,14 @@ const Contact = () => {
   };
 
   return (
-    <footer
+    <section
       id='contato'
       className='flex flex-col items-center bg-(--bg) w-full px-4 pt-32 pb-20 lg:pb-0 mb-12'
     >
       <div className='w-full max-w-7xl flex flex-col items-center gap-8'>
-        <h3 className='text-3xl md:text-4xl font-bold text-(--text)'>
+        <h2 className='text-3xl md:text-4xl font-bold text-(--text)'>
           Entre em contato
-        </h3>
+        </h2>
         <section className='w-full lg:text-left flex flex-col gap-6 lg:flex-row justify-between'>
           <form
             noValidate
@@ -155,11 +155,11 @@ const Contact = () => {
                 <MdiGoogleMyBusiness className='transition-all duration-300 ease-in-out hover:text-(--color-primary) hover:scale-[1.1]' />
               </Link>
             </div>
-            <h6>Desenvolvimento Web | Comunicação Visual</h6>
+            <p>Desenvolvimento Web | Comunicação Visual</p>
           </section>
         </section>
       </div>
-    </footer>
+    </section>
   );
 };
 
