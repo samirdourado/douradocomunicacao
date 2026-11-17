@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('home mostra título e botão de orçamento', async ({ page }) => {
     await page.goto('/');
-    await expect(page).toHaveTitle(/Dourado Comunicação/);
+    await expect(page).toHaveTitle(/Título errado/);
     await expect(page.getByRole('heading', { level: 1 })).toContainText('clientes');
     await expect(
         page.getByRole('button', { name: 'Solicite um orçamento grátis' }),
