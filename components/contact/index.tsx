@@ -14,6 +14,9 @@ import formatPhone from '@/utils/formatPhone';
 import TextArea from '../text-area';
 import MaterialSymbolsSend from '../icons/send';
 import MaterialSymbolsScheduleSendRounded from '../icons/sending';
+import * as z from 'zod';
+
+type iFormData = z.infer<typeof sendEmailSchema>;
 
 const Contact = () => {
   const [submiting, setSubmiting] = useState(false);
@@ -29,7 +32,7 @@ const Contact = () => {
     resolver: zodResolver(sendEmailSchema),
   });
 
-  const submit = async (formData: any) => {
+  const submit = async (formData: iFormData) => {
     try {
       setSubmiting(true);
       await sendEmail(formData);
