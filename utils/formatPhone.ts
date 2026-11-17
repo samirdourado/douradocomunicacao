@@ -3,6 +3,7 @@ const formatPhone = (value: string) => {
   const ddd = digits.slice(0, 2);
   const rest = digits.slice(2);
 
+  if (digits.length === 0) return '';
   if (digits.length <= 2) return `(${digits}`;
   if (rest.length <= 4) return `(${ddd}) ${rest}`;
 
